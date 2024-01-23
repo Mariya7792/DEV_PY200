@@ -20,7 +20,7 @@ files:
       length: 26
       offset: 188
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: |-
       class Book:
@@ -53,5 +53,8 @@ files:
 
         print(list_books)  # проверяем метод __repr__
   learner_created: false
+- name: еуые.py
+  visible: true
+  learner_created: true
 status: Unchecked
 record: -1

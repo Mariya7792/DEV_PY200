@@ -47,7 +47,7 @@ class Giraffe:
         print(f'Рост жирафа:{height}, длина шеи: {neck_lenght}')
 
 class Laptop:
-    def __init__(self, price:int, color:str):
+    def __init__(self, price: int, color: str):
         self.price = price
         self.color = color
         self.check(price, color)
@@ -70,8 +70,8 @@ class Laptop:
            return price
 
 a = Laptop(6000, 'black')
-print(a.price())
+print(a.color)
 
 if __name__ == "__main__":
     # TODO работоспособность экземпляров класса проверить с помощью doctest
-    pass
+    doctest.testmod(Time)
