@@ -21,7 +21,7 @@ files:
       offset: 188
     initialized_from_dependency: false
     selected: true
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       class Book:
           ...
@@ -56,5 +56,8 @@ files:
 - name: еуые.py
   visible: true
   learner_created: true
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 23 Jan 2024 18:52:39 UTC"
 record: -1
