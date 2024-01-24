@@ -5,8 +5,6 @@ class Time:
         self.hours = hours
         self.minutes = minutes
         self.seconds = seconds
-        self.check(hours, minutes, seconds)
-        self.give_more_minutes(minutes)
         """
         Класс, указывающий время (часы, минуты,секунды)
         
@@ -38,7 +36,6 @@ class Giraffe:
             raise ValueError
 
         self.height = height
-        self.count_neck_lenght(height)
     """
     Класс позволяет узнать длину шеи жирава по росту
     """
@@ -50,9 +47,6 @@ class Laptop:
     def __init__(self, price:int, color:str):
         self.price = price
         self.color = color
-        self.check(price, color)
-        self.possible_color(color)
-        self.laptop_price(price)
     def check(self, price, color):
         if not isinstance(price, int):
             raise ValueError
