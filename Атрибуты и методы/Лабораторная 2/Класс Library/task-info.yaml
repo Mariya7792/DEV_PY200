@@ -28,7 +28,7 @@ files:
       offset: 188
     initialized_from_dependency: true
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       class Book:
           ...
@@ -40,7 +40,7 @@ files:
       offset: 217
     initialized_from_dependency: false
     selected: true
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       class Library:
           ...
@@ -77,8 +77,8 @@ files:
 
         print(library_with_books.get_index_by_book_id(1))  # проверяем индекс книги с id = 1
   learner_created: false
-- name: test.py
-  visible: true
-  learner_created: true
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Wed, 24 Jan 2024 17:56:05 UTC"
 record: -1
