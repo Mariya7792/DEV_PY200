@@ -20,7 +20,7 @@ files:
       length: 26
       offset: 188
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Solved
     encrypted_possible_answer: |-
       class Book:
@@ -53,8 +53,11 @@ files:
 
         print(list_books)  # проверяем метод __repr__
   learner_created: false
+- name: еуые.py
+  visible: true
+  learner_created: true
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Wed, 24 Jan 2024 15:07:51 UTC"
+  time: "Tue, 23 Jan 2024 18:52:39 UTC"
 record: -1

@@ -11,14 +11,22 @@ class Figure:
 
 class Rectangle(Figure):
     """ Производный класс. Прямоугольник. """
-
-    ...  # TODO определить конструктор и перегрузить метод area
-
+    def __init__(self, a, b):
+        self.a = a
+        self.b = b
+    def area(self):
+        S = self.a * self.b
+        print(f"Вызван метод класса {self.__class__.__name__}")
 
 class Circle(Figure):
     """ Производный класс. Круг. """
 
-    ...  # TODO определить конструктор и перегрузить метод area
+    def __init__(self, a):
+        self.a = a
+
+    def area(self):
+        S = self.a * 3.14
+        print(f"Вызван метод класса {self.__class__.__name__}")
 
 
 if __name__ == "__main__":

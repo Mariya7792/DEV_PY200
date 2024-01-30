@@ -12,7 +12,7 @@ class Date:
 
         self.is_valid_date(self._day, self._month, self._year)
 
-    # TODO какой декоратор следует применить?
+    @staticmethod
     def is_leap_year(self, year: int) -> bool:
         """Проверяет, является ли год високосным"""
         ...  # TODO записать условие проверки високосного года
@@ -23,6 +23,7 @@ class Date:
 
     def is_valid_date(self, day: int, month: int, year: int) -> None:
         """Проверяет, является ли дата корректной"""
+        if
         ...  # TODO если указанный набор день, месяц и год неверны, то вызвать ошибку ValueError
 
     # TODO записать getter и setter для дня
