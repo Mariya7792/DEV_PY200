@@ -3,12 +3,12 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 348
+  - offset: 555
     length: 64
     placeholder_text: "...  # TODO определить конструктор и перегрузить метод area"
     initial_state:
-      length: 59
-      offset: 238
+      length: 64
+      offset: 348
     initialized_from_dependency: false
     selected: true
     status: Solved
@@ -20,12 +20,12 @@ files:
           def area(self):
               print(f"Вызван метод класса {self.__class__.__name__}")
               return self.a * self.b
-  - offset: 567
+  - offset: 774
     length: 63
     placeholder_text: "...  # TODO определить конструктор и перегрузить метод area"
     initial_state:
-      length: 59
-      offset: 364
+      length: 63
+      offset: 567
     initialized_from_dependency: false
     selected: true
     status: Solved
@@ -81,7 +81,4 @@ files:
     Вызван метод класса Circle
   learner_created: false
 status: Solved
-feedback:
-  message: Congratulations!
-  time: "Tue, 30 Jan 2024 17:52:07 UTC"
 record: -1
